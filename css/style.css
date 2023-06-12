@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1B1B1B;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#first-fold {
+    width: 100%;
+    height: 100vh;
+    margin: 30vh auto;
+    line-height: 30px;
+}
+
+#first-fold h1 {
+    font-weight: 700;
+}
+
+#first-fold h2 {
+    font-weight: 700;
+}
