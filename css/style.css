@@ -12,17 +12,60 @@ body {
     font-weight: 400;
 }
 
-#first-fold {
-    width: 100%;
-    height: 100vh;
-    margin: 30vh auto;
+#main-navbar {
+    background: #202020 !important;
+}
+
+#main-navbar #navbarNav ul li a {
+    color: #FFFFFF !important;
+}
+
+#main-navbar .navbar-nav {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#fold1 {
     line-height: 30px;
+    background: url(../images/IMG_0555_big.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
-#first-fold h1 {
+#fold1-description {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+#fold1 h1 {
     font-weight: 700;
 }
 
-#first-fold h2 {
+#fold1 h2 {
     font-weight: 700;
+}
+
+.btn-primary {
+    background-color: #FFFFFF !important;
+    color: #272142 !important;
+    border-color: #FFFFFF !important;
+    border-radius: 30px !important;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#site-footer {
+    background: #282323;
+    color: #FFFFFF;
+}
+
+#telegram-icon {
+    border-radius: 2px;
+    padding: 3px;
+    font-size: 24px;
+    color: #282323;
+    background: #ffffff;
 }
