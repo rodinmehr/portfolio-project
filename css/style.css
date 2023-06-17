@@ -17,12 +17,20 @@ body {
 }
 
 #main-navbar #navbarNav ul li a {
+    color: #a3a3a3 !important;
+}
+
+#main-navbar #navbarNav ul li.active a {
     color: #FFFFFF !important;
 }
 
 #main-navbar .navbar-nav {
     margin-left: auto;
     margin-right: 20px;
+}
+
+#main-navbar .navbar-brand {
+    margin-left: 20px;
 }
 
 #fold1 {
@@ -57,6 +65,42 @@ body {
     padding-bottom: 10px;
 }
 
+.btn-primary:hover {
+    background-color: #a0a0a0 !important;
+    color: #131313 !important;
+    border-color: #131313 !important;
+}
+
+.header-title {
+    color: #F65282;
+    letter-spacing: 0.1em;
+}
+
+#about-fold {
+    margin-top: 40px;
+}
+
+#about-fold a {
+    color: #FFFFFF;
+}
+
+.box-info {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+
+    background: #2D2727;
+    border-radius: 4px;
+}
+
+.about-fold h3 {
+    margin-top: 30px !important;
+}
+
 #site-footer {
     background: #282323;
     color: #FFFFFF;
@@ -68,4 +112,16 @@ body {
     font-size: 24px;
     color: #282323;
     background: #ffffff;
+}
+
+#instagram-icon {
+    border-radius: 2px;
+    padding: 3px;
+    font-size: 24px;
+    color: #282323;
+    background: #ffffff;
+}
+
+#site-footer a {
+    color: #FFFFFF;
 }
