@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+:root {
+    --primary-color: #1B1B1B;
+    --light-primary-color: #FFFFFF;
+    --light-secondary-color: #a3a3a3;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #1B1B1B;
-    color: #FFFFFF;
+    background-color: var(--primary-color);
+    color: var(--light-primary-color);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
@@ -17,11 +23,11 @@ body {
 }
 
 #main-navbar #navbarNav ul li a {
-    color: #a3a3a3 !important;
+    color: var(--light-secondary-color) !important;
 }
 
 #main-navbar #navbarNav ul li.active a {
-    color: #FFFFFF !important;
+    color: var(--light-primary-color) !important;
 }
 
 #main-navbar .navbar-nav {
@@ -54,10 +60,14 @@ body {
     font-weight: 700;
 }
 
+#fold2 a {
+    color: var(--light-primary-color);
+}
+
 .btn-primary {
-    background-color: #FFFFFF !important;
+    background-color: var(--light-primary-color) !important;
     color: #272142 !important;
-    border-color: #FFFFFF !important;
+    border-color: var(--light-primary-color) !important;
     border-radius: 30px !important;
     padding-right: 20px;
     padding-left: 20px;
@@ -81,7 +91,7 @@ body {
 }
 
 #about-fold a {
-    color: #FFFFFF;
+    color: var(--light-primary-color);
 }
 
 .box-info {
@@ -103,7 +113,7 @@ body {
 
 #site-footer {
     background: #282323;
-    color: #FFFFFF;
+    color: var(--light-primary-color);
 }
 
 #telegram-icon {
@@ -111,19 +121,23 @@ body {
     padding: 3px;
     font-size: 24px;
     color: #282323;
-    background: #ffffff;
+    background: var(--light-primary-color);
 }
 
-#instagram-icon {
-    border-radius: 2px;
-    padding: 3px;
-    font-size: 24px;
-    color: #282323;
-    background: #ffffff;
+#telegram-icon:hover {
+    background: #a0a0a0;
 }
 
 #site-footer a {
-    color: #FFFFFF;
+    color: var(--light-primary-color);
+}
+
+a {
+    transition: all 100ms ease-in-out;
+}
+
+a:hover {
+    color: #a0a0a0 !important;
 }
 
 @media only screen and (max-width: 900px) {
