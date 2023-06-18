@@ -125,3 +125,10 @@ body {
 #site-footer a {
     color: #FFFFFF;
 }
+
+@media only screen and (max-width: 900px) {
+    #main-navbar .navbar-nav {
+        margin-left: 20px;
+    }
+    
+}
